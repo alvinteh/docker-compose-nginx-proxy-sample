@@ -1,0 +1,6 @@
+proxy:
+  image: nginx
+  volumes:
+    - ./etc/proxy:/etc/nginx/conf.d
+  ports:
+    - 80:80
